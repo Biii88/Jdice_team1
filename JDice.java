@@ -34,7 +34,7 @@ public class JDice {
 	JComboBox inputBox;
 	long lastEvent; /* hack to prevent double events with text
 			   entry */
-	public JDice_Listener(JList resultList,
+	public JDiceListener(JList resultList,
 			     JComboBox inputBox){
 
 	    this.listItems=new Vector<String>();
@@ -151,6 +151,7 @@ public class JDice {
 	jf.setSize(450,500);
 	jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	jf.setVisible(true);
+	System.err.println("***********\n**********\n");
 			  
     }
 
