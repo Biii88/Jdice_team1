@@ -151,8 +151,18 @@ public class JDice {
 	jf.setSize(450,500);
 	jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	jf.setVisible(true);
-	System.err.println("***********\n**********\n");
 			  
     }
 
+
+
+
+
+
+
+
+
+
+
+	System.err.println("***********\n**********\n");
 }
